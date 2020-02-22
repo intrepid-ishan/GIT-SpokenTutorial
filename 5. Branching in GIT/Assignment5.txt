@@ -1,0 +1,18 @@
+1)"Create a branch named chapter-two"
+	git branch chapter-two
+	git branch
+
+2)"Go into the chapter-two branch"
+	git checkout chapter-two
+3)"Do some commits"
+	notepad branch.html &
+	git add branch.html
+	git commit -m "Added branch.html"
+4)"Switch back to master branch"
+	git checkout master
+
+5)"Check the Git log and"
+	git log --oneline
+
+"Understand that, in master branch, you can't see the commits of chapter-two branch"
+	

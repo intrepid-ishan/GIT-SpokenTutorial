@@ -1,0 +1,7 @@
+Hosting GIT Repository
+
+1)"Create a respository in GitHub"
+2)"Add few files to the repository"
+3)"Edit the files and do some commits"
+4)"Try to create branches and tags in the repository"
+

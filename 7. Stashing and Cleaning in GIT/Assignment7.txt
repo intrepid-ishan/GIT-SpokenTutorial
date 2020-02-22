@@ -1,0 +1,32 @@
+Stashing and Cleaning
+
+
+1)"Create three stashes in your repository"(Not linked branch,also with linked branch)
+	git branch chapter-three
+	git checkout chapter-three
+	ls
+	notepad stash1.html &
+	git add stash1.html 
+	git commit
+	notepad stash2.html &
+	git add stash2.html 
+	git commit
+	notepad stash3.html &
+	git add stash3.html 
+	git commit
+	notepad stash1.html &
+	git status
+	git checkout master
+	git stash save "Stashed stash1.html"
+2)"Explore the command git stash show"
+	it is used to inspect the stash done
+	
+3)"Understand the difference between the commands git stash show and git stash show stash@{1}"
+	git stash show returns latest stash inspeciton while other one gives specific
+
+4)"Apply the latest stash"
+	git stash apply stash@{1}
+
+5)"Delete all the stashes from the repository"
+	git stash clear
+

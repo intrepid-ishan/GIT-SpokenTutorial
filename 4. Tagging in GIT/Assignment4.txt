@@ -1,0 +1,11 @@
+1)"Create lightweight tag"
+	notepad intrepid-ishan.html &
+	git commit -a -m "Edited intrepid-ishan.html"
+	git tag v1.1
+2)"Create annotated tag"
+	notepad final-file.html & 
+	git commit -a -m "Added final-file.html"
+	git tag -a v1.2 -m "My Version v1.2"
+3)"Understand the diff between them"	
+	git show v1.1
+	git show v1.2

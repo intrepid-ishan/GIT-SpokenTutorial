@@ -1,0 +1,10 @@
+Merging and Deleting Branches
+
+1)"Check the commits of the branch chapter-two which you created in the previous assignment"
+	git log --oneline
+
+2)"Merge it to the master branch"
+	git merge chapter-two
+
+3)"Delete the chapter two branch"
+	git branch -d chapter-two

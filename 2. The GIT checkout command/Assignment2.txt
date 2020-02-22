@@ -1,0 +1,16 @@
+1)"Do some modification in your text file"
+	notepad intrepid-ishan.html &
+
+2)"Commit the changes"
+	git commit -a -m "Edited intrepid-ishan.html"
+
+3)"Try to revert to your old revision"
+	git checkout (SHA1 of Initial)
+
+4)"Again do some modification in your text file"
+	notepad intrepid-ishan.html &
+
+5)"Try to discard changes"
+	git checkout .
+
+	

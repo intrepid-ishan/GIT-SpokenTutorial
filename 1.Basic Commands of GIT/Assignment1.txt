@@ -1,0 +1,19 @@
+1)"Create Directory in your machine and make it as repository"
+	mkdir spokentutorial
+	cd spokentutorial
+	git init
+
+2)"Create a text file and add content into it"
+	git config --global core.editor notepad
+	notepad intrepid-ishan.html &
+
+3)"Add the file to the staging area of the GIT repository"
+	git add intrepid-ishan.html
+
+4)"Commit the file and"
+	git status
+	git commit
+
+5)"See the commit details using 'git log' command"
+	git log
+	

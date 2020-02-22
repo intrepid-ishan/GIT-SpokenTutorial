@@ -1,0 +1,26 @@
+Working with Remote Repositories
+
+____Other than other 2 years create third user and follow____
+
+1)"Create one more user named User3"
+	cd ..
+	cd Desktop 
+	mkdir User3
+	cd User3
+
+2)"Clone data for User3"
+	git clone (URL)
+
+3)"Start working on User3 local repository"
+	git remote
+	git remote add jerry (URL)
+	git remote
+	cd (repo name) //go inside repo and then add file
+	notepad ishaaan.html &
+	git add ishaaan.html
+	git commit
+
+4)"Try to push data from User3"
+	git config user.name intrepid-ishan
+	git config user.email ishan.makadia333.im@gmail.com
+	git push jerry master

@@ -1,0 +1,5 @@
+Explore
+1)"Git reflog"
+2)"git diff HEAD~ HEAD"
+3)"git show HEAD"
+4)"man git diff"	
